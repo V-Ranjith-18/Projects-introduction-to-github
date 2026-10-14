@@ -44,4 +44,43 @@ If the exercise isn't ready in 20 seconds, please check the [Actions](../../acti
 
 ---
 
+## Real-world AI project data for your portfolio
+
+If you want to get job-ready, build and publish at least these 3 real-world AI projects:
+
+### 1) Customer support ticket classifier + priority predictor
+- **Business problem**: Route and prioritize support tickets automatically.
+- **Data**: [Kaggle - Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)
+- **What to build**:
+  - Text classification for ticket category (billing, technical, account, etc.)
+  - Priority prediction (low/medium/high)
+  - Small dashboard showing queue, model confidence, and SLA risk
+- **Portfolio proof**: F1-score for category, confusion matrix, latency per prediction, and clear deployment demo.
+
+### 2) Medical image diagnosis assistant (pneumonia detection)
+- **Business problem**: Help clinicians with early triage from chest X-rays.
+- **Data**: [Kaggle - Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **What to build**:
+  - CNN or transfer learning model (ResNet/EfficientNet)
+  - Explainability with Grad-CAM heatmaps
+  - API endpoint and simple web UI for image upload + prediction
+- **Portfolio proof**: ROC-AUC, precision/recall, false negative analysis, and model card with limitations.
+
+### 3) Retail demand forecasting + inventory optimization
+- **Business problem**: Predict sales and reduce stockouts/overstock.
+- **Data**: [Kaggle - Store Item Demand Forecasting Challenge](https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data)
+- **What to build**:
+  - Time-series forecasting model (XGBoost/LightGBM/Prophet/LSTM)
+  - Reorder-point simulation using forecast uncertainty
+  - Weekly planning report with recommended inventory actions
+- **Portfolio proof**: MAPE/RMSE, backtesting across time windows, and estimated business impact.
+
+### Suggested delivery stack
+- **ML**: Python, pandas, scikit-learn, PyTorch/TensorFlow
+- **Serving**: FastAPI + Docker
+- **MLOps**: MLflow, GitHub Actions CI, basic monitoring
+- **Frontend**: Streamlit or React dashboard
+
+---
+
 &copy; 2026 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
